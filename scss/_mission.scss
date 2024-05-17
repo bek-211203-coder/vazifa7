@@ -1,0 +1,43 @@
+.mission{
+    padding-top: 40px;
+    background-image: url(../images/Grou.png);
+    background-size: 750px;
+    background-repeat: no-repeat;
+    background-position: -5%;
+
+    .mission__container{
+        display: flex;
+        align-items: center;
+
+        .mission-info{
+            h3{
+                font-family: 'Poppins';
+                font-size: 19px;
+                font-weight: 700;
+                line-height: 23px;
+                margin-bottom: 28px;
+                color: #3EA83B;
+            }
+
+            h2{
+                font-family: 'Poppins';
+                font-size: 46px;
+                font-weight: 700;
+                line-height: 23px;
+                margin-bottom: 57px;
+            }
+
+            p{
+                display: flex;
+                align-items: center;
+                gap: 18px;
+                font-family: 'Lato';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 23px;
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,55 @@
+.hero{
+    background-image: url(../images/Rec.png), url(../images/image.png);
+    background-repeat: no-repeat;
+    background-position: left, right;
+    // background-size: 70%, 70% ;
+    top: -10;
+
+    position: relative;
+    padding-top: 201px;
+    padding-bottom: 160px;
+
+    // &:after{
+    //     content: '';
+    //     position: absolute;
+    //     width: 50%;
+    //     height: 557px;
+    //     background-image: linear-gradient(to right, rgba(237, 255, 242 ) 70%, rgba(237, 255, 242, 0.1), rgba(237, 255, 242, 0));
+    //     top: 0;
+    // }
+    .info{
+        position: relative;
+        z-index: 111 ;
+        text-transform: uppercase;
+        font-family: 'Oswald';
+        width: 390px;
+
+        h3{
+            font-size: 45px;
+            font-weight: 500;
+            span{
+                color: #3EA83B;
+            }
+        }
+
+        h1{
+            font-size: 122px;
+            font-weight: 700;
+            color: #3EA83B;
+        }
+
+        p{
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 31px;
+            color: #8C8C8C; 
+            margin-bottom: 30px;
+        }
+        a{
+            @extend %buttonTemplate;
+            text-decoration: none;
+            color: white
+            ;
+        }
+    }
+}

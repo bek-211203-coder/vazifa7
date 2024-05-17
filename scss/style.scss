@@ -1,0 +1,36 @@
+ @import './fonts';
+ @import './normalize';
+ @import './header';
+ @import './hero';
+ @import './about';
+ @import './features';
+ @import './mission';
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .container {
+    max-width: 1142px;
+    width: 100%;
+    margin: 0 auto;
+ }
+
+
+  %buttonTemplate {
+    border: none;
+    background-color: #3EA83B;
+    padding: 15px 54px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 43px;
+    transition: all 0.5s;   
+
+    &:hover{
+        background-color: #195517;
+    }
+  }
